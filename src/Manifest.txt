@@ -1,0 +1,12 @@
+Main-Class: pepband3.PepBand3
+Manifest-Version: 2.0.0
+Created-By: 1.6.0 (Sun Microsystems Inc.)
+SplashScreen-Image: pepband3/artwork/splash.jpg
+Name: Pep Band Manager Suite
+Specification-Title: Pep Band Manager Suite
+Specification-Version: 2.0
+Specification-Vendor: Eric Heumann
+Implementation-Title: Pep Band Manager Suite
+Implementation-Version: build3
+Implementation-Vendor: Eric Heumann
+Class-Path: XStream.jar XPP3.jar iText.jar Resources.jar
