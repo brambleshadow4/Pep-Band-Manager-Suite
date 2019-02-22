@@ -122,8 +122,12 @@ public class RosterPreviewTable extends BandPreviewTable {
 			pointColumn.add("");
 			
 			for (Member member : memberMap.get(instruments.get(index))) {
-				dataColumn.add(member);
-				pointColumn.add(member.getPoints(season));
+				
+				if(member.getPoints(season) != 0) {
+					dataColumn.add(member);
+					pointColumn.add(member.getPoints(season));
+				}
+				
 			}
 			if (index != instruments.size() - 1) {
 				dataColumn.add("");
