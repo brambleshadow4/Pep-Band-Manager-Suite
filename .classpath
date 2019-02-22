@@ -5,5 +5,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/iText"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/XStream"/>
+	<classpathentry kind="lib" path="lib/iText.jar"/>
+	<classpathentry kind="lib" path="lib/XPP3.jar"/>
+	<classpathentry kind="lib" path="lib/XStream.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
